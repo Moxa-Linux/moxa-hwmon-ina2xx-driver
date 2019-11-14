@@ -4,12 +4,8 @@ set -e
 
 case "$1" in
 configure)
-	KERNEL_SYMBOL_NAME="4.9.0-9-amd64"
-	depmod "${KERNEL_SYMBOL_NAME}"
-	sync
-
-	if ! grep -wq "ina2xx" /etc/modules;\
-		then echo "ina2xx" >> /etc/modules; fi
+	KRELEASE=4.9.0-11-amd64
+	depmod "${KRELEASE}"
 	;;
 
 abort-upgrade|abort-remove|abort-deconfigure)
