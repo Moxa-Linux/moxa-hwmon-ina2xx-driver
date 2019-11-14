@@ -5,11 +5,11 @@ Maintainer: Elvis Yao <ElvisCW.Yao@moxa.com>
 Standards-Version: 4.1.2
 Build-Depends: debhelper (>= 10),
                libc6-dev,
-               linux-headers-4.9.0-9-amd64 (= 4.9.168-1+deb9u4)
+               linux-headers-4.9.0-11-amd64
 Homepage: https://www.moxa.com/
 
 Package: moxa-hwmon-ina2xx-driver
 Architecture: amd64
 Depends: ${misc:Depends},
-         linux-image-4.9.0-9-amd64 (>= 4.9.168-1)
+         linux-image-4.9.0-11-amd64
 Description: The purpose of this driver is hardware monitor ina219.
