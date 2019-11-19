@@ -1,0 +1,2 @@
+ina2xx.ko /lib/modules/4.9.0-11-amd64/kernel/drivers/hwmon/
+ina2xx.conf /usr/lib/modules-load.d
