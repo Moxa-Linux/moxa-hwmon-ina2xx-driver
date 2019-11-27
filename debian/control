@@ -8,7 +8,7 @@ Build-Depends: debhelper (>= 10),
                linux-headers-4.9.0-11-amd64
 Homepage: https://www.moxa.com/
 
-Package: moxa-hwmon-ina2xx-driver
+Package: moxa-hwmon-ina2xx-driver-amd64
 Architecture: amd64
 Depends: ${misc:Depends},
          linux-image-4.9.0-11-amd64
