@@ -1,3 +1,9 @@
+moxa-hwmon-ina2xx-driver (4.9.168+1.1.0) stretch; urgency=low
+
+  * update dependence to Debian 9.12
+
+ -- Elvis Yao (姚家瑋) <ElvisCW.Yao@moxa.com>  Tue, 07 Apr 2020 11:35:12 +0800
+
 moxa-hwmon-ina2xx-driver (4.9.168+1.0.0) stretch; urgency=low
 
   * Initial release
